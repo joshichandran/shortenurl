@@ -17,7 +17,7 @@ public class PaymentLinkCreationService {
 
 		String shortUrl = null;
 		try {
-			shortUrl = bitlyClient.shortenPaymentUrl(
+			shortUrl = bitlyClient.getShortenPyamentUrl(
 					"http://127.0.0.1:8030/EIPS/ProcessingEipsRequest?args=AAEF3E1E29CF35EE78C94742D29DF3391BBDA907600F759C32857A6F3F929646CD186B91C5A0D252",
 					"d54204456c059c1436a674c1792a957e4320e0de");
 
